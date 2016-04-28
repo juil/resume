@@ -1,4 +1,6 @@
 * {
+  outline: 1px solid red;
+
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
@@ -13,6 +15,23 @@ header, main, nav, aside, footer {
 
 header {
   text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+}
+
+nav > address {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  font-style: normal;
+
+  width: 200px;
+  height: 40px;
 }
 
 h1 {
