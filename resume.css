@@ -1,5 +1,5 @@
 * {
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
 
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -9,8 +9,15 @@
   font-family: sans-serif;
 }
 
+body {
+  padding: 10px 0px;
+}
+
 header, main, nav, aside, footer {
   flex: 1 100%;
+  /*align-content: center;*/
+  width: 800px;
+  margin: auto;
 }
 
 header {
@@ -27,23 +34,57 @@ nav > address {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
+
   font-style: normal;
 
-  width: 200px;
-  height: 40px;
+  width: 150px;
+  height: 30px;
 }
 
-h1 {
-  font-weight:300;
-}
-
-h2 {
+h1, h2 {
   text-align: center;
-  font-weight:  bolder;
+  font-weight:300;
+  padding-top: 1em;
 }
 
-.subtitle {
-  margin-top: 0px;
-  padding-top: 0px;
+h3 {
+  margin-top: 1.5em;
+  margin-bottom: -0.4em;
+}
+
+h4 {
+  margin-bottom: .5em;
+}
+
+h5 {
+  font-weight: lighter;
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+
+#education, #skills > * {
+  text-align: center;
+}
+
+p {
+  margin-top: -.5em;
+}
+
+a:link, a:visited {
+  color: #26A;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #4AD;
+}
+
+hr {
+  width: 600px;
+  margin-bottom: -1em;
+
+  /*Style from CSS-tricks https://css-tricks.com/simple-styles-for-horizontal-rules/*/
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
