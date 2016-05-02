@@ -66,6 +66,10 @@ h5 {
   text-align: center;
 }
 
+#skills > article {
+  font-family: monospace;
+}
+
 p {
   margin-top: -.5em;
 }
