@@ -41,10 +41,15 @@ nav > address {
   height: 30px;
 }
 
-h1, h2 {
+h1 {
+  font-weight: 300;
+}
+
+h2 {
   text-align: center;
   font-weight:300;
   padding-top: 1em;
+  margin-bottom: -0.5em;
 }
 
 h3 {
@@ -67,6 +72,7 @@ h5 {
 }
 
 #skills > article {
+  margin-top: 1em;
   font-family: monospace;
 }
 
@@ -85,7 +91,7 @@ a:hover {
 
 hr {
   width: 600px;
-  margin-bottom: -1em;
+  margin-bottom: -1.5em;
 
   /*Style from CSS-tricks https://css-tricks.com/simple-styles-for-horizontal-rules/*/
   border: 0;
