@@ -67,16 +67,17 @@ h5 {
   margin-bottom: .5em;
 }
 
-#education, #skills > * {
+#education{
   text-align: center;
 }
 
-#skills > p {
+#skills > p, #interests > p {
   margin-top: 1em;
   font-family: monospace;
+  text-align: center;
 }
 
-p {
+p, ul {
   margin-top: -.5em;
 }
 
