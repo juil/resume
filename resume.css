@@ -41,6 +41,10 @@ nav > address {
   height: 30px;
 }
 
+#homepage {
+  text-decoration: underline;
+}
+
 h1 {
   font-weight: 300;
 }
