@@ -37,7 +37,7 @@ nav > address {
 
   font-style: normal;
 
-  width: 150px;
+  width: 200px;
   height: 30px;
 }
 
@@ -70,6 +70,16 @@ h5 {
 /* #education{
   text-align: center;
 } */
+
+.subtitle {
+  font-size: .8em;
+  font-weight: 100;
+}
+
+.school {
+  font-size: .9em;
+  font-weight: 600;
+}
 
 #skills > p, #interests > p {
   margin-top: 1em;
