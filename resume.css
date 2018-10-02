@@ -28,6 +28,7 @@ nav {
   display: flex;
   justify-content: center;
   flex-flow: wrap;
+  margin-bottom: -1.5em;
 }
 
 nav > address {
@@ -49,7 +50,7 @@ h1 {
 h2 {
   text-align: center;
   font-weight:300;
-  margin-top: 1.2em;
+  margin-top: 2em;
   margin-bottom: -1em;
 }
 
@@ -59,7 +60,7 @@ h2 {
 }
 
 #skills {
-  margin-top: 2.5em;
+  /* margin-top: 2.5em; */
 }
 
 h3 {
