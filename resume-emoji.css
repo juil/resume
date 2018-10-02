@@ -70,7 +70,7 @@ h3 {
 
 h4 {
   margin-top: .9em;
-  margin-bottom: -.6em;
+  margin-bottom: -1em;
 }
 
 h5 {
@@ -153,6 +153,11 @@ li:before {
   margin-left: 1.8em;
 }
 
+#client-portfolio {
+  margin-bottom: -.4em;
+  font-size: 0.9em;
+}
+
 a:link, a:visited {
   color: #26A;
   text-decoration: none;
@@ -174,5 +179,6 @@ hr {
 
 /* Fix hr spacing */
 #experience + hr {
-  margin-top: 2em;
+  margin-top: 1.6em;
+  margin-bottom: -2em;
 }
