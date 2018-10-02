@@ -70,7 +70,7 @@ h5 {
 
 .date {
   float: right;
-  font-weight: 400;
+  /* font-weight: 400; */
   font-size: 11pt;
 }
 
