@@ -99,8 +99,20 @@ h5 {
 
 #skills > p, #interests > p {
   margin-top: 1em;
-  font-family: monospace;
   text-align: center;
+}
+
+.skill-high {
+  font-weight: 800;
+  color: #000;
+}
+.skill-medium {
+  font-weight: 300;
+  color: #333;
+}
+.skill-low {
+  font-weight: 100;
+  color: #888;
 }
 
 ul {
