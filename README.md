@@ -1,3 +1,5 @@
-# RESUME - Juil Yoon
+# Resume
 
-**** Under construction. ****
+**Portfolio**: http://juilyoon.com
+
+**Resume**: http://juil.github.com/resume
