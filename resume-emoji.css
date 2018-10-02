@@ -103,10 +103,54 @@ h5 {
 ul {
   margin-bottom: -.4em;
   /* font-size: .9em; */
+  /* # Custom bullets # */
+  list-style: none;
+  list-style-position: outside;
+  margin-left: 0;
+  padding-left: 3em;
+  text-indent: -2em;
 }
 
-li {
+/* Text bullet */
+/* li {
   margin-bottom: .2em;
+  text-indent: -1em;
+} */
+
+/* Emoji bullet */
+li {
+  /* margin-bottom: 0em;
+  text-indent: 1em; */
+  margin-bottom: -.2em;
+}
+
+li:before {
+  content: "+";
+  padding-right: 1ch;
+}
+
+#lifetime-fitwear li:before {
+  content: "🏋️‍";
+}
+#eloquent-speaking li:before {
+  content: "🎤";
+}
+#uw-retail-services li:before {
+  content: "👕";
+}
+#imprint li:before {
+  content: "🗞";
+}
+#mastered li:before {
+  content: "📷";
+}
+#waterloo li:before {
+  content: "🧠";
+}
+
+.link {
+  margin-top: .2em;
+  margin-left: 1.8em;
 }
 
 a:link, a:visited {
