@@ -9,6 +9,11 @@
   font-family: sans-serif;
 }
 
+/* # Education focus */
+.education-focus {
+  /* display: none; */
+}
+
 @page {
   margin: 0mm 10mm 0mm 5mm;
 }
@@ -152,6 +157,9 @@ li:before {
 }
 #uw-retail-services li:before {
   content: "👕";
+}
+#vbs li:before {
+  content: "⛺️"
 }
 #imprint li:before {
   content: "🗞";
