@@ -58,7 +58,8 @@ h3 {
 }
 
 h4 {
-  margin-bottom: .5em;
+  margin-top: .7em;
+  margin-bottom: -.6em;
 }
 
 h5 {
@@ -69,8 +70,8 @@ h5 {
 
 .date {
   float: right;
-  font-weight: 300;
-  font-size: 12pt;
+  font-weight: 400;
+  font-size: 11pt;
 }
 
 /* #education{
@@ -79,7 +80,7 @@ h5 {
 
 .subtitle {
   font-size: .9em;
-  font-weight: 100;
+  font-weight: 400;
 }
 
 #skills > p, #interests > p {
@@ -89,7 +90,11 @@ h5 {
 }
 
 p, ul {
-  margin-top: -.5em;
+  /* margin-top: -.5em; */
+}
+
+li {
+  margin-bottom: .2em;
 }
 
 a:link, a:visited {
