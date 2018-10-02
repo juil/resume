@@ -71,6 +71,12 @@ h5 {
   margin-bottom: .5em;
 }
 
+.date {
+  float: right;
+  font-weight: 300;
+  font-size: 12pt;
+}
+
 /* #education{
   text-align: center;
 } */
@@ -112,9 +118,4 @@ hr {
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-}
-
-h4 > span {
-  font-weight: 300;
-  padding-left: 1em;
 }
