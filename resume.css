@@ -82,13 +82,8 @@ h5 {
 } */
 
 .subtitle {
-  font-size: .8em;
-  font-weight: 100;
-}
-
-.school {
   font-size: .9em;
-  font-weight: 600;
+  font-weight: 100;
 }
 
 #skills > p, #interests > p {
