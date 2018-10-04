@@ -14,6 +14,11 @@
   display: none;
 }
 
+/* # Video Focus */
+.video-focus {
+  display: none;
+}
+
 @page {
   margin: 0mm 10mm 0mm 5mm;
 }
