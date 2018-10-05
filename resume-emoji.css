@@ -19,6 +19,11 @@
   display: none;
 }
 
+/* # Ecommerce Focus */
+.ecommerce-focus {
+  display: none;
+}
+
 @page {
   margin: 0mm 10mm 0mm 5mm;
 }
@@ -159,6 +164,9 @@ li:before {
 }
 #eloquent-speaking li:before {
   content: "🎤";
+}
+#kapscomoto li:before {
+  content: "🏍"
 }
 #uw-retail-services li:before {
   content: "👕";
