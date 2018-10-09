@@ -24,6 +24,11 @@
   display: none;
 }
 
+/* # Language Skill */
+#skill-language {
+  display: none;
+}
+
 @page {
   margin: 0mm 10mm 0mm 5mm;
 }
