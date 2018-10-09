@@ -24,6 +24,13 @@
   display: none;
 }
 
+/* # Dev Skill */
+.skill-web {
+  display: none;
+}
+.skill-dev {
+  display: none;
+}
 /* # Language Skill */
 #skill-language {
   display: none;
