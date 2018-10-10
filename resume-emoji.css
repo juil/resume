@@ -21,6 +21,11 @@
 
 /* # Ecommerce Focus */
 .ecommerce-focus {
+  /* display: none; */
+}
+
+/* # Marketing Focus */
+.marketing-focus {
   display: none;
 }
 
