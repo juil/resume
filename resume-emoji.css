@@ -16,12 +16,12 @@
 
 /* # Video Focus */
 .video-focus {
-  display: none;
+  /* display: none; */
 }
 
 /* # Ecommerce Focus */
 .ecommerce-focus {
-  /* display: none; */
+  display: none;
 }
 
 /* # Marketing Focus */
@@ -189,6 +189,9 @@ li:before {
 }
 #kapscomoto li:before {
   content: "🏍"
+}
+#mike-barber li:before {
+  content: "✂️"
 }
 #uw-retail-services li:before {
   content: "👕";
