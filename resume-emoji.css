@@ -209,10 +209,10 @@ li:before {
   content: "🧠";
 }
 
-.link {
+/* .link {
   margin-top: .2em;
   margin-left: 1.8em;
-}
+} */
 
 #client-portfolio {
   margin-bottom: -.4em;
