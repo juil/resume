@@ -9,6 +9,11 @@
   font-family: sans-serif;
 }
 
+/* # Camera operation */
+#camera-operation {
+  display: none;
+}
+
 /* # Education focus */
 .education-focus {
   display: none;
@@ -16,12 +21,12 @@
 
 /* # Video Focus */
 .video-focus {
-  /* display: none; */
+  display: none;
 }
 
 /* # Ecommerce Focus */
 .ecommerce-focus {
-  display: none;
+  /* display: none; */
 }
 #uw-retail-services {
   display: none;
@@ -29,7 +34,7 @@
 
 /* # Marketing Focus */
 .marketing-focus {
-  display: none;
+  /* display: none; */
 }
 
 /* # Dev Skill */
@@ -41,7 +46,7 @@
 }
 
 .skill-office {
-  display: none;
+  /* display: none; */
 }
 
 /* # Language Skill */
