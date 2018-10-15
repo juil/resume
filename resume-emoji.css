@@ -210,6 +210,9 @@ li:before {
 #imprint li:before {
   content: "🗞";
 }
+#bargains-group li:before {
+  content: "📦";
+}
 #mastered li:before {
   content: "📷";
 }
