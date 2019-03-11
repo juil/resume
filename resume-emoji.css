@@ -139,6 +139,16 @@ h5 {
   font-size: 11pt;
 }
 
+.degree {
+  /* font-weight: lighter; */
+  font-size: 11pt;
+}
+
+/* Hide graduation date since it is no longer relevant. */
+#graduation {
+  display: none;
+}
+
 /* #education{
   text-align: center;
 } */
