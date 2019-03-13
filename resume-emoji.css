@@ -9,9 +9,14 @@
   font-family: sans-serif;
 }
 
+/* Hide Old Work */
+.old {
+  display: none;
+}
+
 /* # Camera operation */
 #camera-operation {
-  display: none;
+  /* display: none; */
 }
 
 /* # Education focus */
@@ -21,7 +26,7 @@
 
 /* # Video Focus */
 .video-focus {
-  display: none;
+  /* display: none; */
 }
 
 /* # Ecommerce Focus */
@@ -34,7 +39,7 @@
 
 /* # Marketing Focus */
 .marketing-focus {
-  /* display: none; */
+  display: none;
 }
 
 /* # Dev Skill */
@@ -232,6 +237,9 @@ li:before {
 }
 #imprint li:before {
   content: "🗞";
+}
+#toronto-fashion-week li:before {
+  content: "💃";
 }
 #bargains-group li:before {
   content: "📦";
