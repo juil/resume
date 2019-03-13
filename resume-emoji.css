@@ -114,7 +114,7 @@ h2 {
   margin-bottom: -1em;
 }
 
-#skills > h2, #interests > h2 {
+#skills > h2, .interests > h2 {
   font-size: 1.2em;
   margin-bottom: -.5em;
 }
@@ -164,8 +164,9 @@ h5 {
   font-weight: 400;
 }
 
-#skills > p, #interests > p {
+#skills > p, .interests > p {
   margin-top: 1em;
+  margin-bottom: -0.5em;
   text-align: center;
 }
 
