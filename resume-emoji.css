@@ -206,6 +206,12 @@ li:before {
   padding-right: 1ch;
 }
 
+#hapa-izakaya li:before {
+  content: "🍣";
+}
+#simon-mall li:before {
+  content: "👜";
+}
 #lifetime-fitwear li:before {
   content: "💪";
 }
