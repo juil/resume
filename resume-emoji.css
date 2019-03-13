@@ -55,8 +55,8 @@
 }
 
 /* # Language Skill */
-#skill-language {
-  display: none;
+.skill-language {
+  /* display: none; */
 }
 
 @page {
@@ -169,7 +169,8 @@ h5 {
   text-align: center;
 }
 
-.skill-high {
+/* Unnecessarily complicated */
+/* .skill-high {
   font-weight: 800;
   color: #000;
 }
@@ -180,7 +181,7 @@ h5 {
 .skill-low {
   font-weight: 100;
   color: #888;
-}
+} */
 
 ul {
   margin-bottom: -.4em;
