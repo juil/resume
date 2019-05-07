@@ -2,4 +2,4 @@
 
 **Portfolio**: http://juilyoon.com
 
-**Resume**: http://juil.github.com/resume
+**Resume**: http://juil.github.io/resume
