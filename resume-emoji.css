@@ -216,6 +216,9 @@ li:before {
 #advirtours li:before {
   content: "🏠";
 }
+#mirmir li:before {
+  content: "📸"
+}
 #hapa-izakaya li:before {
   content: "🍣";
 }
