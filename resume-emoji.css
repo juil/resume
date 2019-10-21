@@ -213,6 +213,9 @@ li:before {
   padding-right: 1ch;
 }
 
+#advirtours li:before {
+  content: "🏠";
+}
 #hapa-izakaya li:before {
   content: "🍣";
 }
