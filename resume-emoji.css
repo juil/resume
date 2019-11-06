@@ -55,8 +55,8 @@
 }
 
 /* # Language Skill */
-#skill-language {
-  display: none;
+.skill-language {
+  /* display: none; */
 }
 
 @page {
@@ -102,6 +102,16 @@ nav > address {
   grid-row-gap: 5px;
 }
 
+img {
+  display: block;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.center {
+  text-align: center;
+}
+
 h1 {
   font-weight: 300;
   margin: .4em;
@@ -114,7 +124,7 @@ h2 {
   margin-bottom: -1em;
 }
 
-#skills > h2, #interests > h2 {
+#skills > h2, .interests > h2 {
   font-size: 1.2em;
   margin-bottom: -.5em;
 }
@@ -164,12 +174,14 @@ h5 {
   font-weight: 400;
 }
 
-#skills > p, #interests > p {
+#skills > p, .interests > p {
   margin-top: 1em;
+  margin-bottom: -0.5em;
   text-align: center;
 }
 
-.skill-high {
+/* Unnecessarily complicated */
+/* .skill-high {
   font-weight: 800;
   color: #000;
 }
@@ -180,7 +192,7 @@ h5 {
 .skill-low {
   font-weight: 100;
   color: #888;
-}
+} */
 
 ul {
   margin-bottom: -.4em;
@@ -211,6 +223,12 @@ li:before {
   padding-right: 1ch;
 }
 
+#advirtours li:before {
+  content: "🏠";
+}
+#mirmir li:before {
+  content: "📸"
+}
 #hapa-izakaya li:before {
   content: "🍣";
 }
